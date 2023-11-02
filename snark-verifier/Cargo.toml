@@ -28,7 +28,7 @@ revm = { version = "= 2.3.1", optional = true }
 
 # loader_halo2
 halo2_wrong_ecc = { git = "https://github.com/kitounliu/halo2wrong", branch = "grumpkin", package = "ecc", optional = true }
-poseidon = { git = "https://github.com/privacy-scaling-explorations/poseidon", tag = "v2023_04_20", optional = true }
+poseidon = { git = "https://github.com/kitounliu/poseidon.git", branch = "grumpkin", optional = true }
 
 [dev-dependencies]
 rand_chacha = "0.3.1"
